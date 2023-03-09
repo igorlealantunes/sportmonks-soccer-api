@@ -1,5 +1,5 @@
 {
-  "name": "joesaunderson/sportmonks-soccer",
+  "name": "igorlealantunes/sportmonks-soccer-api",
   "description": "Simple SportMonks Soccer API Client for PHP",
   "license": "MIT",
   "type": "library",
@@ -11,7 +11,7 @@
     }
   ],
   "require": {
-    "php": "^7.3 | ^8",
+    "php": "^7.3 | ^8.2",
     "symfony/http-client": "^5.4"
   },
   "autoload": {
