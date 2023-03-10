@@ -6,12 +6,12 @@ PHP Library for [Sportmonks](https://sportmonks.com/) Soccer API. Developed by [
 
 ## Prerequisites
 
-PHP >= 7.3
+PHP >= 7.4
 
 ## Installation
 
 ```
-composer require joesaunderson/sportmonks-soccer
+composer require igorlealantunes/sportmonks-soccer-api
 ```
 
 ## Setup
