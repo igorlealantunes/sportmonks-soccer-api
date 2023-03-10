@@ -26,7 +26,7 @@ class SoccerApiHelper
         $dateTimeErrors = DateTime::getLastErrors();
 
         // Validate DateTime
-        if (!$dateTime || ($dateTimeErrors['warning_count'] + $dateTimeErrors['error_count']) > 0) {
+        if (!$dateTime || (data_get($dateTimeErrors, 'dateTimeErrors', 0) + data_get($dateTimeErrors, 'error_count', 0)) > 0) {
             throw new InvalidDateFormatException();
         }
 
