@@ -26,7 +26,7 @@ class SoccerClient
     public function __construct()
     {
         // Set API Key
-        $this->query['api_token'] = $_ENV['SPORTMONKS_API_TOKEN'];
+        $this->query['api_token'] = $_ENV['SPORTMONKS_API_TOKEN'] ?? env('SPORTMONKS_API_TOKEN');
 
         // Validate API Key
         if (empty($this->query['api_token'])) {
